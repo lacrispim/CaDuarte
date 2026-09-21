@@ -1,0 +1,38 @@
+# Sistema operacional
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups e versões antigas
+*.bak
+*.old
+*~
+backup/
+backups/
+old/
+
+# Build/dev temporários (caso use Python/Node no futuro)
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.local
+
+# Logs
+*.log
+
+# Firebase deploy (caso volte a usar)
+.firebase/
+.firebaserc
+
+# Arquivos do build local que não precisam estar no repo
+build.py
+validate.js
+sol_data.json
+DEPLOY_NOVO.bat
